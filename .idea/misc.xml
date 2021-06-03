@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-api/pom.xml" />
+        <option value="$PROJECT_DIR$/detaco-data/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-security/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-bussines/pom.xml" />
+        <option value="$PROJECT_DIR$/taco/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-data/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
