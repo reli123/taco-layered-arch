@@ -16,7 +16,11 @@
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>taco-commons</artifactId>
+            <version>1.0.6</version>
+        </dependency>
     </dependencies>
 
 

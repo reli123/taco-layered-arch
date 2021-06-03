@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>hr.obai</groupId>
-            <artifactId>detaco-data</artifactId>
+            <artifactId>taco-data</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

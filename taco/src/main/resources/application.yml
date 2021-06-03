@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://bili-mis.cl1dxmbid4hz.eu-central-1.rds.amazonaws.com:5432/taco_layered_db
+    username: Mladen
+    password: BiliMis20
+    hikari:
+      auto-commit: false
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: taco_playground
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    generate-ddl: true
+  jackson:
+    default-property-inclusion: NON_NULL

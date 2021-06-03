@@ -16,7 +16,17 @@
     <packaging>jar</packaging>
 
     <dependencies>
-
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>taco-commons</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>taco-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 

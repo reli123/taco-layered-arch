@@ -13,10 +13,23 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>taco-api</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>jar</packaging>
 
     <dependencies>
-
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>taco-commons</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>hr.obai</groupId>
+            <artifactId>taco-bussines</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>
