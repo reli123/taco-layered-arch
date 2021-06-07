@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/taco-bussines/pom.xml" />
         <option value="$PROJECT_DIR$/taco/pom.xml" />
         <option value="$PROJECT_DIR$/taco-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-code-gen/pom.xml" />
       </list>
     </option>
   </component>

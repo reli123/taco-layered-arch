@@ -12,8 +12,9 @@
         </processorPath>
         <module name="taco-business" />
         <module name="taco-api" />
+        <module name="taco-application" />
         <module name="taco-security" />
-        <module name="taco" />
+        <module name="taco-code-gen" />
       </profile>
       <profile name="Annotation profile for taco-commons" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -73,9 +74,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="etaco-data" options="-parameters" />
-      <module name="taco" options="-parameters" />
       <module name="taco-api" options="-parameters" />
+      <module name="taco-application" options="-parameters" />
       <module name="taco-business" options="-parameters" />
+      <module name="taco-code-gen" options="" />
       <module name="taco-commons" options="-parameters" />
       <module name="taco-data" options="-parameters" />
       <module name="taco-domain" options="-parameters" />
